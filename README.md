@@ -1,4 +1,4 @@
-# ansible-wordpress-lamp
+# Playbook Ansible установка wordpress-lamp
 Плейбук для удаленной установки LAMP+Wordpress с помощью Ansible
 Протестировано на Ubuntu 18.04.6 LTS (ansible-target) с Ubuntu 20.04.4 LTS (ansible-controller).
 
