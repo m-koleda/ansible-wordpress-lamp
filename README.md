@@ -5,7 +5,7 @@
 При необходимости поднимаем виртуальные машины. У меня были подняты хосты ansiblecontroller, ansibletarget1, ansibletarget2, ansibletarget3.
 Изменяем имена хостов в контроллере, управляемых хостах (для удобства при работе с хостами по SSH): 
 sudo vi /etc/hostname -> ansiblecontroller, sudo vi /etc/hosts -> ansiblecontroller, аналогично на ansibletarget.
-Адреса хостов в моем случае: ansiblecontroller 10.0.2.10, ansibletarget1 10.0.2.11, ansibletarget2 10.0.2.12,ansibletarget3 10.0.2.13
+Адреса хостов в моем случае: ansiblecontroller 10.0.2.10, ansibletarget1 10.0.2.11, ansibletarget2 10.0.2.12, ansibletarget3 10.0.2.13.
 
 Устанавливаем на хост ansiblecontroller ansible:
 sudo apt-get install ansible
